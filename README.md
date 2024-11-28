@@ -6,3 +6,13 @@ model-1
 - NUM_ENCODER_LAYERS = 3
 - NUM_DECODER_LAYERS = 3
 - NUM_EPOCHS = 50
+- 24,501,155 trainable parameters
+
+model-2
+ - EMB_SIZE = 256
+ - NHEAD = 8
+ - FFN_HID_DIM = 256
+ - NUM_ENCODER_LAYERS = 6
+ - NUM_DECODER_LAYERS = 6
+ - NUM_EPOCHS = 30
+ - 36,603,747 trainable parameters
